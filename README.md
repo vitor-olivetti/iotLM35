@@ -1,5 +1,5 @@
 # iotLM35
-Código do projeto de Objetos Inteligentes Conectados com o sensor LM35. 05K
+# Código do projeto de Objetos Inteligentes Conectados com o sensor LM35. 05K
 
 include <ESP8266WiFi.h>
 include <PubSubClient.h>
