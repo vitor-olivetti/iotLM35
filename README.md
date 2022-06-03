@@ -12,8 +12,8 @@ int PORTA = 1883;
 
 int sensorPin = A0;
 
-char * SSID = "NET_2G_217";
-char * PASSWORD = "3133032750";
+char * SSID = "******";
+char * PASSWORD = "*******";
 
 WiFiClient espClient;
 PubSubClient MQTT(espClient);
