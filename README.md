@@ -1,11 +1,11 @@
 # iotLM35
 Código do projeto de Objetos Inteligentes Conectados com o sensor LM35. 05K
 
-# include <ESP8266WiFi.h>
-# include <PubSubClient.h>
+include <ESP8266WiFi.h>
+include <PubSubClient.h>
 
-# define ID_MQTT "lm35_mqtt"
-# define TOPICO_PUBLISH_SENSOR_TEMP "topico_sensor_temp"
+define ID_MQTT "lm35_mqtt"
+define TOPICO_PUBLISH_SENSOR_TEMP "topico_sensor_temp"
 
 const char * BROKER = "test.mosquitto.org";
 int PORTA = 1883;
